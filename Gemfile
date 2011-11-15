@@ -8,13 +8,19 @@ gem 'rails', '3.1.1'
 gem 'sqlite3', '1.3.4', :require => 'sqlite3'
 
 group :development do
-  gem 'rspec-rails', '2.4.1'
+  gem 'rspec-rails', '2.7.0'
 end
 
+
 group :test do
-  gem 'rspec-rails', '2.4.1'
+  gem 'rspec-rails', '2.7.0'
   gem 'webrat'
+  
+  gem 'win32-process'
+  
+  gem 'spork', '0.8.5'
 end
+
 
 
 gem 'json'
